@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.head{
-    width:1440px ;
-    height:652px;
+.header-content{
+ max-width:1440px ;
+  max-height:652px;
     
 background-image: url(assets/Hero-bg.png);
 
@@ -13,7 +13,7 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 padding: 30px 220px;
-position: absolute;
+position: relative;
 text-align: center;
 
 
@@ -60,6 +60,57 @@ margin: 32px 0px;
 background: rgb(13, 19, 33);
 padding: 21px 24px 21px 24px;
 }
+
+main{
+    max-width: 1140px;
+    max-height: 1395px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+/* why web devolpoment styles */
 .why-web{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    margin: 0px 10px;
+  background-color: rgb(255, 255, 255)
+  rgba(255, 255, 255, 0);
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.second-section-banner{
+position: static;
+max-width: 946px;
+max-height: 336px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 48px;
+}
+.banner-pic1{
+position: ;
+}
+.second-banner-content{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0px;  
+    margin: 16px 0px
+}
+.second-section-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin: 16px 0px;
+}
+.second-btn{
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+margin: 32px 0px;
 }
