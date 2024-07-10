@@ -65,7 +65,7 @@ main{
     max-width: 1140px;
     max-height: 1395px;
     margin: 0 auto;
-    border: 2px solid red;
+   
 }
 /* why web devolpoment styles */
 .why-web{
@@ -89,8 +89,12 @@ justify-content: space-between;
 align-items: flex-start;
 padding: 48px;
 }
-.banner-pic1{
-position: ;
+.second-section-banner1{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
 }
 .second-banner-content{
     color: rgba(13, 19, 33, 0.7);
@@ -113,4 +117,23 @@ border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 padding: 12px 20px 12px 20px;
 margin: 32px 0px;
+}
+/* second section style */
+.inspiration-section{
+width: 1140px;
+height: 775px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border: 2px solid red;
+}
+.video{
+    width: 1076px;
+height: 550px;
+border-radius: 16px;
+
+
+margin: 10px 0px;
 }
