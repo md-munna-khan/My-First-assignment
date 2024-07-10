@@ -285,7 +285,7 @@ padding: 17px 20px 17px 20px;
 background: rgb(255, 255, 255);
 }
 .footer-column{
-width: 1440px;
+width: 900px;
 height: 100px;
 padding: 32px 150px 32px 150px;
 border-radius: 16px;
@@ -298,7 +298,7 @@ align-items: flex-start
 
 }
 .footer-section-tittle{
-width: 1140px;
+width: 1000px;
 height: 36px;
 display: flex;
 flex-direction: row;
@@ -310,7 +310,12 @@ font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 }
-.footer-section-tittle  [type="a"]   {
+.footer-section-tittle a  {
 width: 36px;
 height: 36px;
+
+}
+.footer-column a img {
+    width: 30px;
+    margin: 0 10px;
 }
