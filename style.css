@@ -80,7 +80,7 @@ main{
   background-color: rgba(13, 19, 33, 0.02);
 }
 .second-section-banner{
-position: static;
+position: relative;
 max-width: 946px;
 max-height: 336px;
 display: flex;
@@ -90,7 +90,7 @@ align-items: flex-start;
 padding: 48px;
 }
 .second-section-banner1{
-    justify-content: flex-start;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -127,7 +127,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-border: 2px solid red;
+position: relative;
 }
 .video{
     width: 1076px;
@@ -145,7 +145,7 @@ padding: 0px;
 margin: 111px 0px;
 display: flex;
 flex-direction: column;
-justify-content: flex-start;
+justify-content: center;
 align-items: center;
 padding: 0px;
 }
@@ -211,4 +211,106 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 margin: 24px 0px
+}
+/* footer styles */
+.footer-section{
+background-image: url(assets/handshake.jpg);
+ width: 1140px;
+height: 314px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
+}
+
+.footer-section1{
+width: 1044px;
+height: 186px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+.footer-tittle{
+width: 230px;
+height: 36px;
+margin: 16px 0px;
+color: rgb(255, 255, 255);
+
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+}
+.footer-description{
+ color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+ .input{
+width: 548px;
+height: 57px;
+display: block;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+display: block;
+background: rgb(255, 255, 255);
+margin: 32px 0px;
+border: none;
+}
+.input1  [type="submit"] {
+    width: 120px;
+height: 58px;
+position: static;
+margin: 0px 16px;
+border-radius: 8px;
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+background: rgb(255, 255, 255);
+}
+.footer-column{
+width: 1440px;
+height: 100px;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start
+
+}
+.footer-section-tittle{
+width: 1140px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+.footer-section-tittle  [type="a"]   {
+width: 36px;
+height: 36px;
 }
