@@ -137,3 +137,78 @@ border-radius: 16px;
 
 margin: 10px 0px;
 }
+/* current target styles */
+.current-target{
+width: 1140px;
+height: 460px;
+padding: 0px;
+margin: 111px 0px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+/* skill section styles here */
+.skills-container{
+    display: flex;
+   gap: 24px;
+   width: 1140px;
+   height: 299px;
+   margin: 32px 0px;
+   padding: 40px;
+
+}
+.skill1{
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 5px;
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+
+}
+.skill2{
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 5px;
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+
+}
+.skill3{
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 5px;
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+
+}
+.skill-tittle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800; 
+}
+.skill-description{
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin: 8px 0px;
+}
+.skill.btn{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+margin: 24px 0px
+}
